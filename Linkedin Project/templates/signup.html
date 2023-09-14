@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='signup.css')}}">
+</head>
+<body>
+    <div class="signuppage">
+        <form action="/" method="POST">
+            <img src="{{url_for('static', filename='linkedinlogo.jpg')}}" alt="linkedin logo"><br>
+            <h1>Sign Up</h1>
+            <label for="mobileoremail">MobileNo/Email</label><br>
+            <input type="email" name="mobileoremail" id="mobileoremail" required><br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password"><br><br>
+            <label for="conf_password">Confirm Password</label><br>
+            <input type="password" name="conf_password" id="conf_password"><br><br>
+            <a href="{{url_for('login')}}" target="_self"><button type="submit">Continue</button></a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.signuppage{
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 0px;
+    max-width: 350px;
+    max-height: 1000px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.signuppage h1{
+    text-align: center;
+}
+
+.signuppage label{
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signuppage input{
+    width: 300px; 
+    border-radius: 0px; 
+    height: 20px;
+}
+
+.signuppage button{
+    background-color: rgb(23, 6, 122); 
+    color: white; 
+    text-align: center; 
+    width: 300px ; 
+    height: 30px;
+    border-radius: 10px;
+}
+
+.signuppage img{
+    width: 150px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: -10px;
+}

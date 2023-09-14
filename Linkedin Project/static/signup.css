@@ -1,0 +1,41 @@
+.signuppage{
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 350px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.signuppage h1{
+    text-align: center;
+}
+
+.signuppage label{
+    font-size: 20px; 
+    font-family: monospace;
+}
+
+.signuppage input{
+    width: 300px; 
+    border-radius: 10px; 
+    height: 20px;
+}
+
+.signuppage button{
+    background-color: rgb(0, 123, 255); 
+    color: white; 
+    text-align: center; 
+    width: 300px ; 
+    height: 30px;
+    border-radius: 10px;
+}
+
+.signuppage img{
+    width: 150px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: -10px;
+}

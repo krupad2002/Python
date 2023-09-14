@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='accountdetails.css')}}">
+</head>
+<body>
+    <div class="accountdetailsform">
+        <form action='/accdetail' method="POST">
+            <h1>Account Details</h1><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="">Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <label for="university">University</label><br>
+            <input type="text" id="university" name="university"><br><br>
+            <label for="degree">Degree</label>
+            <input type="text" name="degree" id="degree"><br><br>
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" cols="30" rows="3"></textarea><br><br>
+            <button type="submit" value="Save">Save</button>
+            <a href="home.html"><button type="button">Back</button></a>
+        </form>
+    </div>
+</body>
+</html>

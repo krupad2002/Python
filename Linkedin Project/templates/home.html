@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+    <title>Linked In Home Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="{{url_for('static', filename='liknedlogo.png')}}" alt="Linkedin Logo">
+            </div>
+            <div class="accdet">
+                <a href="{{url_for('acc_details')}}">Account Details</a>
+            </div>
+        </nav>
+    </header>
+    <div class="homepage">
+        <div class="home">
+            <a href="home.html">Home</a>
+        </div>
+        <div class="network">
+            <p style="margin-left: 40px;">My Network</p>
+        </div>
+        <div class="jobs">
+            <p style="margin-left: 40px;">Jobs</p>
+        </div>
+        <div class="messaging">
+            <p style="margin-left: 40px;">Messaging</p>
+        </div>
+        <div class="notifications">
+            <p style="margin-left: 40px;">notifications</p>
+        </div>
+    </div>
+</body>
+</html>
